@@ -106,7 +106,7 @@ before analysis:
 - Data types correctly assigned to all 14 columns
 
 ### Query Categories
-QL queries were written and executed across 8 categories:
+SQL queries were written and executed across 8 categories:
 
 | Category | Description |
 |----------|-------------|
