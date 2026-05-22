@@ -1,4 +1,4 @@
-# E-Commerce Sales Analysis (Excel & SQL)
+# E-Commerce Sales Analysis (Excel)
 
 A full Exploratory Data Analysis (EDA) and SQL querying project 
 carried out on a 1,200 row E-Commerce dataset spanning 2023, 
@@ -9,7 +9,6 @@ carried out on a 1,200 row E-Commerce dataset spanning 2023,
 - [Dataset Description](#dataset-description)
 - [Tools Used](#tools-used)
 - [Excel Analysis](#excel-analysis)
-- [SQL Analysis](#sql-analysis)
 - [Key Findings](#key-findings)
 - [Recommendations](#recommendations)
 - [Dashboard Preview](#dashboard-preview)
@@ -21,14 +20,11 @@ carried out on a 1,200 row E-Commerce dataset spanning 2023,
 This project was completed as part of a structured Data Analytics 
 Internship programme at DecodeLabs. The goal was to explore, 
 analyse and extract business insights from an E-Commerce dataset 
-using two core analyst tools — Microsoft Excel and Microsoft SQL 
-Server.
+using core analyst tools — Microsoft Excel.
 
-The project was completed in two phases:
+The project was completed in:
 - **Phase 1 (Excel):** Data exploration, pivot table analysis 
-  and interactive dashboard creation
-- **Phase 2 (SQL):** Database creation, data importation and 
-  business insight extraction using SQL queries
+  and interactive dashboard creation.
 
 ## Dataset Description
 
@@ -63,7 +59,6 @@ The project was completed in two phases:
 | Tool | Purpose |
 |------|---------|
 | Microsoft Excel | Data cleaning, pivot tables, dashboard |
-| MS SQL Server (SSMS) | Database creation and SQL querying |
 | GitHub | Version control and portfolio hosting |
 
 ## Excel Analysis
@@ -97,27 +92,6 @@ before analysis:
   filtering across 2023, 2024 and 2025
 - Product type slicer for cross-filtering all charts 
   simultaneously
-
-## SQL Analysis
-
-### Database Setup
-- Database created in MS SQL Server Management Studio (SSMS)
-- Dataset imported as a CSV flat file
-- Data types correctly assigned to all 14 columns
-
-### Query Categories
-SQL queries were written and executed across 8 categories:
-
-| Category | Description |
-|----------|-------------|
-| Basic SELECT | View full and partial dataset |
-| WHERE Filtering | Filter by status, year, price, channel |
-| ORDER BY | Sort by revenue, date and order value |
-| GROUP BY + Aggregations | COUNT, SUM, AVG by product, channel, year |
-| HAVING | Filter aggregated results above a threshold |
-| CASE WHEN | Handle NULL coupon values and custom grouping |
-| Date Functions | YEAR(), MONTH(), DATENAME() for time analysis |
-| Business Insight Queries | Fulfilment rate, top customers, discount impact |
 
 ## Key Findings
 
@@ -189,9 +163,6 @@ ecommerce-analysis/
 │
 ├── excel/
 │   └── ecommerce_analysis.xlsx
-│
-├── sql/
-│   └── ecommerce_queries.sql
 │
 ├── images/
 │   └── dashboard_screenshot.png
