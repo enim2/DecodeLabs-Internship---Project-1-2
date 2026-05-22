@@ -1,6 +1,6 @@
 # E-Commerce Sales Analysis (Excel)
 
-A full Exploratory Data Analysis (EDA) and SQL querying project 
+A full Exploratory Data Analysis (EDA) project 
 carried out on a 1,200 row E-Commerce dataset spanning 2023, 
 2024 and 2025 as part of my Data Analytics Internship at DecodeLabs.
 
@@ -20,7 +20,7 @@ carried out on a 1,200 row E-Commerce dataset spanning 2023,
 This project was completed as part of a structured Data Analytics 
 Internship programme at DecodeLabs. The goal was to explore, 
 analyse and extract business insights from an E-Commerce dataset 
-using core analyst tools — Microsoft Excel.
+using core analyst tool — Microsoft Excel.
 
 The project was completed in:
 - **Phase 1 (Excel):** Data exploration, pivot table analysis 
